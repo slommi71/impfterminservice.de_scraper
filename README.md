@@ -1,7 +1,7 @@
 # impfterminservice.de_scraper
 Scrape www.impfterminservice.de | COVID-19
 
-#Todo list: 
+# Todo list: 
 - complete .readme 
   - requirements.txt
   - setup
