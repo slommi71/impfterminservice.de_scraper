@@ -1,0 +1,18 @@
+#General
+*.env
+env/
+
+#VS Code
+.vscode/settings.json
+
+#Pycharm
+.DS_Store
+.idea
+
+#Python
+__pycache__/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.ropeproject/
+ 
