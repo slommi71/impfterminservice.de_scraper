@@ -1,7 +1,7 @@
 from time import sleep
 from typing import Dict
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.chrome.options import Options
@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from utils.string_utils import normalize_string
 
-load_dotenv()
+# load_dotenv()
 
 
 class TerminScraper:

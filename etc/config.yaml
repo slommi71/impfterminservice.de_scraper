@@ -1,0 +1,6 @@
+#Your vermittlungscode
+VERMITTLUNGSCODE:
+trial_zentrum:
+  "bundesland": "Beandenburg"
+  "address": "Cottbus"
+chromiumdriverpath: "D:\\Development\\driver\\chromedriver.exe"
