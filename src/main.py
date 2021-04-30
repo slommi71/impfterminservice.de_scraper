@@ -18,11 +18,11 @@ if __name__ == "__main__":
 
     config = read_config()
 
-    trial_zentrum = {"bundesland": "Baden-Württemberg", "address": "Ludwigsburg"}
+    # trial_zentrum = {"bundesland": "Baden-Württemberg", "address": "Ludwigsburg"}
 
     a = TerminScraper(
-        driver_path="chromedriver.exe",
-        impfzentrum=trial_zentrum,
-        vermittlungscode=os.getenv("VERMITTLUNGSCODE"),
+        driver_path=config['chromiumdriverpath'],
+        impfzentrum=config['trial_zentrum'],
+        vermittlungscode=os.getenv(config['VERMITTLUNGSCODE']),
     )
     a.check_in()
