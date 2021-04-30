@@ -23,6 +23,6 @@ if __name__ == "__main__":
     a = TerminScraper(
         driver_path=config['chromiumdriverpath'],
         impfzentrum=config['trial_zentrum'],
-        vermittlungscode=os.getenv(config['VERMITTLUNGSCODE']),
+        vermittlungscode=config['VERMITTLUNGSCODE'],
     )
     a.check_in()
