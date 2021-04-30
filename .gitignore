@@ -1,6 +1,7 @@
 #General
 *.env
 env/
+venv/
 
 #VS Code
 .vscode/settings.json
@@ -15,4 +16,4 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 .ropeproject/
- 
+
