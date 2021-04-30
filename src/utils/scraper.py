@@ -46,7 +46,7 @@ class TerminScraper:
         Check in based on your selected vaccination center
         """
         self.driver.get("https://www.impfterminservice.de/impftermine")
-        sleep(3)
+        sleep(2)
 
         # accept cookies
         try:
