@@ -20,9 +20,9 @@ if __name__ == "__main__":
 
     # trial_zentrum = {"bundesland": "Baden-Württemberg", "address": "Ludwigsburg"}
 
-    a = TerminScraper(
+    ts = TerminScraper(
         driver_path=config['chromiumdriverpath'],
         impfzentrum=config['trial_zentrum'],
         vermittlungscode=config['VERMITTLUNGSCODE'],
     )
-    a.check_in()
+    ts.check_in()
