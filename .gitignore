@@ -5,6 +5,7 @@ venv/
 
 #VS Code
 .vscode/settings.json
+.vscode/launch.json
 
 #Pycharm
 .DS_Store
