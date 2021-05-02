@@ -4,8 +4,7 @@ env/
 venv/
 
 #VS Code
-.vscode/settings.json
-.vscode/launch.json
+.vscode/
 
 #Pycharm
 .DS_Store
