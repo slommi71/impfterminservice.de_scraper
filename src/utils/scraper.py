@@ -1,3 +1,4 @@
+import sys
 from time import sleep
 from typing import Dict
 
@@ -8,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from colorama import Fore, Back, Style
 
 from utils.string_utils import normalize_string
 
@@ -155,4 +157,12 @@ class TerminScraper:
         """
         TODO
         """
-        raise NotImplementedError("create_vermittlungscode not implemented")
+        sleep(4)
+        no_date_avail = self.driver.find_elements_by_class_name("alert-danger")
+        if no_date_avail:
+            print(Back.RED +Fore.YELLOW + no_date_avail[0].text)
+            print(Style.RESET_ALL)
+            sleep(1)
+            self.driver.quit()
+            sys.exit(0)
+        raise NotImplementedError("create_vermittlungscode not fully implemented")
