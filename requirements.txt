@@ -1,4 +1,5 @@
 # dotenv
 pyyaml
+colorama
 selenium
 utils
