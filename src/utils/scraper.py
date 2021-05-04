@@ -165,4 +165,6 @@ class TerminScraper:
             sleep(1)
             self.driver.quit()
             sys.exit(0)
+        else:
+            print(Back.DARKGREEN + +Fore.YELLOW + ' - Termin verfügbar!' )
         raise NotImplementedError("create_vermittlungscode not fully implemented")
