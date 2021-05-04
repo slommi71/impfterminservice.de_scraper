@@ -1,4 +1,12 @@
+# INFO
+This repo is deprecated and will not longer be maintained.
+Please use [Vaccipy](https://github.com/JuliusJacobitz/vaccipy)
+
+
 # impfterminservice.de_scraper
+
+
+
 Scrape www.impfterminservice.de | COVID-19
 
 # Todo list: 
