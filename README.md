@@ -1,6 +1,6 @@
 # INFO
 This repo is deprecated and will not longer be maintained.
-Please use [Vaccipy](https://github.com/JuliusJacobitz/vaccipy)
+Please use [Vaccipy](https://github.com/iamnotturner/vaccipy)
 
 
 # impfterminservice.de_scraper
